@@ -21,12 +21,14 @@ file(GLOB_RECURSE gaf_source_files
 
 add_library(gafplayer ${gaf_source_files})
 
-set_target_properties(gafplayer
-  PROPERTIES
-  ARCHIVER_OUTPUT_DIRECTORY "{CMAKE_BINARY_DIR}/lib"
-  LIBRARY_OUTPUT_DIRECTORY "{CMAKE_BINARY_DIR}/lib")
+#install .a file
+INSTALL(
+  TARGETS gafplayer
+  ARCHIVE DESTINATION lib
+  LIBRARY DESTINATION lib
+  COMPONENT library
+)
 
-install(DIRECTORY Sources/ DESTINATION "${CMAKE_CURRENT_SOURCE_DIR}/include"
-  FILES_MATCHING PATTERN "*.h")
-
-
+#install header files
+install(DIRECTORY Sources/ DESTINATION "include/GAFPlayer"
+  FILES_MATCHING PATTERN "*.h") 
