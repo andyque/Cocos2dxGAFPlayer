@@ -40,7 +40,7 @@ set(CMAKE_EXE_LINKER_FLAGS
 )
 
 file(GLOB_RECURSE gaf_source_files
-  "${CMAKE_CURRENT_SOURCE_DIR}/SOURCES/*.cpp")
+  "${CMAKE_CURRENT_SOURCE_DIR}/Sources/*.cpp")
 
 add_library(gafplayer ${gaf_source_files})
 
