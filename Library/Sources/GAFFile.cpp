@@ -9,7 +9,7 @@
 #endif
 
 #ifdef ANDROID
-    #include "platform/android/CCFileUtilsAndroid.h"
+    #include "platform/android/CCFileUtils-android.h"
 #endif
 
 NS_GAF_BEGIN
