@@ -52,3 +52,9 @@ Library/Sources/latex
 /Examples/Example.wp8-xaml/Debug
 /Examples/Example.wp8-xaml/Release
 /Examples/Example.wp8-xaml/ipch
+*.xcworkspacedata
+*.xccheckout
+*.xcuserstate
+*.xcbkptlist
+xcschememanagement.plist
+*.xcscheme
