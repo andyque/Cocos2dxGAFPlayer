@@ -60,7 +60,8 @@
 		2998F6C71A5B91E1007DC236 /* myshopsgame4 in Resources */ = {isa = PBXBuildFile; fileRef = 1A2FBE3C192C95A500631FE9 /* myshopsgame4 */; };
 		2998F6C81A5B91E1007DC236 /* peacock_feb3_natasha in Resources */ = {isa = PBXBuildFile; fileRef = 1A2FBE3D192C95A500631FE9 /* peacock_feb3_natasha */; };
 		2998F6C91A5B91E1007DC236 /* tiger in Resources */ = {isa = PBXBuildFile; fileRef = 1A2FBE3F192C95A500631FE9 /* tiger */; };
-		2998F71D1A5BB1A0007DC236 /* libGAFPlayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2998F71C1A5BB19C007DC236 /* libGAFPlayer.a */; };
+		2998F7201A5BB611007DC236 /* libGAFPlayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2998F71C1A5BB19C007DC236 /* libGAFPlayer.a */; };
+		2998F7211A5BB617007DC236 /* libgafplayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A2FBF6D192E09DE00631FE9 /* libgafplayer.a */; };
 		29E7527C197EA4CA00A33829 /* buttons in Resources */ = {isa = PBXBuildFile; fileRef = 29E7527B197EA4CA00A33829 /* buttons */; };
 		CF59E90B187DAB2D003A6524 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF59E90A187DAB2D003A6524 /* Foundation.framework */; };
 		CF59E90F187DAB2D003A6524 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF59E90E187DAB2D003A6524 /* UIKit.framework */; };
@@ -173,7 +174,7 @@
 		2998F6AD1A5B8CF5007DC236 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks/OpenAL.framework; sourceTree = DEVELOPER_DIR; };
 		2998F6AF1A5B8CFF007DC236 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
 		2998F6B11A5B8D0B007DC236 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/usr/lib/libz.dylib; sourceTree = DEVELOPER_DIR; };
-		2998F6B81A5B918B007DC236 /* libgafplayer.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgafplayer.a; path = "../mac-prebuilt/libgafplayer.a"; sourceTree = "<group>"; };
+		2998F71E1A5BB4D8007DC236 /* libgafplayer.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgafplayer.a; path = "../mac-prebuilt/libgafplayer.a"; sourceTree = "<group>"; };
 		29E7527B197EA4CA00A33829 /* buttons */ = {isa = PBXFileReference; lastKnownFileType = folder; name = buttons; path = ../Resources/buttons; sourceTree = "<group>"; };
 		CF59E907187DAB2D003A6524 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF59E90A187DAB2D003A6524 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -210,7 +211,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2998F71D1A5BB1A0007DC236 /* libGAFPlayer.a in Frameworks */,
+				2998F7201A5BB611007DC236 /* libGAFPlayer.a in Frameworks */,
 				2998F6B21A5B8D0B007DC236 /* libz.dylib in Frameworks */,
 				2998F6B01A5B8CFF007DC236 /* Cocoa.framework in Frameworks */,
 				2998F6AE1A5B8CF5007DC236 /* OpenAL.framework in Frameworks */,
@@ -236,6 +237,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2998F7211A5BB617007DC236 /* libgafplayer.a in Frameworks */,
 				293951BA1998E30900D42174 /* CoreGraphics.framework in Frameworks */,
 				1A065022192BAB8E0086395A /* libcocos2d iOS.a in Frameworks */,
 				CF59E9A0187DC19E003A6524 /* libz.dylib in Frameworks */,
@@ -343,7 +345,7 @@
 		2998F6B31A5B903C007DC236 /* mac-prebuilt */ = {
 			isa = PBXGroup;
 			children = (
-				2998F6B81A5B918B007DC236 /* libgafplayer.a */,
+				2998F71E1A5BB4D8007DC236 /* libgafplayer.a */,
 			);
 			name = "mac-prebuilt";
 			sourceTree = "<group>";
